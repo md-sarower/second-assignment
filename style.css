@@ -1,0 +1,193 @@
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* Common Style */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+    width: 1300px;
+    margin: 0 auto;
+}
+.container {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+/* <!-- Section One Start --> */
+
+.section-one {
+    margin-top: 25px;
+    padding: 0px 120px;
+}
+.menubar {
+    display: flex;
+    justify-content: space-between;
+}
+.menubar-left {
+    margin-top: 50px;
+}
+.menubar-right {
+    margin-top: 65px;
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    margin-right: 34px;
+    list-style: none;
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+/* <!-- Section Two Start --> */
+
+.section-two {
+    margin-top: 70px;
+    padding: 0px 120px;
+}
+.focused-part {
+    display: flex;
+    justify-content: space-around;
+}
+.text-part h1 {
+    font-size: 52px;
+}
+.text-part p {
+    font-size: 16px;
+}
+.text-part a {
+    background-color: #e0502c;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 12px 35px;
+}
+.fa, .fas {
+    font-weight: 900;
+    padding-left: 12px;
+}
+.bg-img {
+    position: absolute;
+}
+.camera-img {
+    position: relative;
+    right: -12px;
+    top: 22px;
+}
+
+/* Secton Three Start */
+.section-three {
+    margin-bottom: 100px;
+    padding: 0px 165px;
+}
+.logo-part {
+    display: flex;
+    flex-direction: row;
+    grid-row-gap: 50px;
+    justify-content: space-evenly;
+}
+
+/* <!-- Section Four Start --> */
+
+.section-four {
+    margin-bottom: 100px;
+   
+}
+.gallary-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.fa-star.filled {
+    color: #FFC014;
+}
+.fa-star.empty {
+    color: #AEAEAE;
+}
+.product-info-image {
+    display: grid;
+    grid-template-columns: 330px 330px 330px; 
+    grid-column-gap: 60px; 
+    /* [ডানে, বামে ১৫ পিক্সেল প্যাডিং দেওয়ার ফলে গ্রিড গ্যাপ ৬০ পিক্সেল দিতে হয়েছে। স্ক্রিন এ গ্যাপ ৩০ পিক্সেল ই শো করবে।]  */
+    grid-row-gap: 30px;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+.gallary-content {
+    width: 330px;
+    height: 475px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.see-more {
+    display: flex;
+    justify-content: right;
+}
+.see-more a {
+    color: #653FF5;
+    text-decoration: none;
+    margin-right: 55px;
+}
+
+/* Section Five Start  */
+
+.section-five {
+    margin-bottom: 70px;
+    padding: 0px 165px;
+}
+.optional-part {
+    display: flex;
+}
+.left-part {
+    width: 45%;
+}
+.right-part {
+    width: 55%;
+    margin-top: -23px;
+    margin-left: 110px;
+}
+.right-part a {
+    background-color: #653FF5;
+    color: white;
+    font-size: 18px;
+    border: none;
+    text-decoration: none;
+    padding: 12px 35px; 
+}
+.right-part h1 {
+    font-size: 38px;
+}
+
+/* Section Six Start  */
+.section-six {
+    margin-bottom: 25px;
+}
+.footer-part {
+    height: 240px;
+    width: 1300px;
+    background-color: #0A0826;
+}
+.footer-text {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer-icon {
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 22px;
+}
+.padding {
+    padding: 0px 20px;
+}
