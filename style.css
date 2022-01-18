@@ -191,3 +191,13 @@ nav li a {
 .padding {
     padding: 0px 20px;
 }
+
+/* Start Media Queries  */
+
+/* Mobile Devices  */
+
+@media only screen and (max-width: 688px) {
+    .menubar-right {
+        background-color: purple;
+    }
+}
