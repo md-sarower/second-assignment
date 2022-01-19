@@ -176,7 +176,7 @@ nav li a {
 }
 .footer-part {
     height: 240px;
-    width: 1300px;
+    width: 100%;
     background-color: #0A0826;
 }
 .footer-text {
@@ -198,13 +198,35 @@ nav li a {
 
 /* Mobile Devices  */
 
-@media only screen and (max-width: 688px) {
+@media only screen and (max-width: 600px) {
     .container {
         width: 100%;
     }
-    .menubar-right {
+    .menubar, .focused-part, .logo-part, .gallary-title, .see-more, .optional-part, .footer-part {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .product-info-image {
         grid-template-columns: repeat(1, 1fr);
     }
+    .footer-part {
+        width: 100%;
+    }
+    .footer-text {
+        text-align: left;
+        padding-left: 15px
+    }
+    .footer-icon {
+        text-align: left;
+    }
+}
 
+/* I - Pad  */
+
+@media only screen and (max-width: 601) {
     
 }
+
+
+    
